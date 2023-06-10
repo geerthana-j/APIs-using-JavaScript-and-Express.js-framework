@@ -1,0 +1,25 @@
+
+
+localhost:8081/api/total_items?start_date=2022-10-03%2023%3A40%3A46%20%2B0530&end_date=2022-12-09%2013%3A38%3A02%20%2B0530&department=Marketting
+
+
+localhost:8081/api/nth_most_total_item?item_by=quantity&start_date=2022-10-01%2000%3A00%3A00&end_date=2022-12-31%2023%3A59%3A59&n=2
+
+
+localhost:8081/api/percentage_of_department_wise_sold_items?start_date=2022-10-01%2000%3A00%3A00&end_date=2022-12-31%2023%3A59%3A59
+
+
+localhost:8081/api/monthly_sales?product=apple
+
+
+total items:
+http://localhost:8081/api/total_items?start_date=2022-10-03%2023%3A40%3A46%20%2B0530&end_date=2022-12-09%2013%3A38%3A02%20%2B0530&department=Marketing
+
+nth most total item:
+http://localhost:8081/api/nth_most_total_item?item_by=price&start_date=2022-10-01%2000%3A00%3A00&end_date=2022-12-31%2023%3A59%3A59&n=2
+
+percentage of department wise sold item:
+http://localhost:8081/api/percentage_of_department_wise_sold_items?start_date=2022-10-01%2000%3A00%3A00&end_date=2022-12-31%2023%3A59%3A59
+
+monthly sales item:
+http://localhost:8081/api/monthly_sales?product=apple
